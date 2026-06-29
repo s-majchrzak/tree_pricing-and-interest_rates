@@ -187,6 +187,8 @@ class Tree:
         """
         generations = self.generations()
         path_container = [0]
+        tick_positions = [i for i in range(self.steps+1)]
+        tick_labels = [str(i)+"dt" for i in range(self.steps+1)]
         for i in range(npaths):
             path = 0
             while path in path_container:
@@ -198,6 +200,7 @@ class Tree:
                     index = index_next
             path_container.append(path)
             plt.plot(range(self.steps+1), path, color="black", linewidth=1)
+        plt.xticks(tick_positions, tick_labels)
         plt.show()
 
 class Option:
