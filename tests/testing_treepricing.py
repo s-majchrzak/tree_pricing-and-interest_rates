@@ -6,7 +6,7 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-from CRR_model import CRRModel, Tree, Option
+from src.CRR_model import CRRModel, Tree, Option
 
 
 # In[2]:
