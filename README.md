@@ -8,4 +8,4 @@ The project contains:
 
 - interest rate simulation enigine capable of running such models as Vasicek, CIR, Hull-White, Ho-Lee with both Euler-Maruyama and Milstein discretization methods; engine can calibrate some of the models to swaption dataset and visualize the results
 
-<p align="center"><img src="plots/Vasicek_rates.png" width="700"/></p>
+<p align="center"><img src="plots/Hull-White_rates.png" width="700"/></p>
